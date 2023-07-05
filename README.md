@@ -51,6 +51,7 @@ Services:
  ```
 Usage Example:
 Get application bundle ID:
+osascript -e 'id of app "Google Chrome"'
 
 `grep 'BundleIdent' -A 1 /Applications/<APPLICATION NAME>/Contents/Info.plist`
 
